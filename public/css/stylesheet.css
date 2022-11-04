@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/IRANSans.eot');
+    src: url('../fonts/IRANSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IRANSans.woff2') format('woff2'),
+        url('../fonts/IRANSans.woff') format('woff'),
+        url('../fonts/IRANSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Aviny';
+    src: url('../fonts/Aviny.eot');
+    src: url('../fonts/Aviny.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Aviny.woff2') format('woff2'),
+        url('../fonts/Aviny.woff') format('woff'),
+        url('../fonts/Aviny.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: sans;
+}
+
+.Toastify__toast-body{
+    font-family: 'Aviny';
+}
